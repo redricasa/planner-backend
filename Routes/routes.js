@@ -5,7 +5,7 @@ let Task = require("../Models/todo/todo.model");
 // my TODO routes
 // task add
 router.post("/add", (req, res) => {
-  // res.render('index')
+  res.json({'sam':'samri'})
   // TODO-----------
 });
 // task edit
