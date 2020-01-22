@@ -1,5 +1,5 @@
 {
-  "name": "Planner-App",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,18 +15,11 @@
     "build": "npm install && npm run build",
     "heroku-postbuild": "npm run build",
     "deploy": "npm run clean && npm run build && serve -s build",
+    "clean": "rm -rf build",
     "rerun": "npm run clean && npm run build && serve -s build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sharmap1/Planner-App.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sharmap1/Planner-App/issues"
-  },
-  "homepage": "https://github.com/sharmap1/Planner-App#readme",
   "dependencies": {
     "concurrently": "^5.0.2",
     "cors": "^2.8.5",
@@ -34,7 +27,6 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.8.7",
-    "nodemon": "^2.0.2",
-    "react-beautiful-dnd": "^12.2.0"
+    "nodemon": "^2.0.2"
   }
 }
